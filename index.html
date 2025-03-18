@@ -1,50 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Landing Site</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Landing Site</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-  </style>
-</head>
-
-<body>
-  <div id="header">
-    <h2 id="header-logo">Header Logo</h2>
-    <div id="nav-bar">
-      <a href="" class="header-secondary">header link one</a>
-      <a href="" class="header-secondary">header link two</a>
-      <a href="" class="header-secondary">header link three</a>
+  <body>
+    <div id="header" class="dark-bg">
+      <div id="nav-bar">
+        <h2 id="header-logo">Header Logo</h2>
+          <div id="header-links">
+            <a href="" class="header-secondary">header link one</a>
+            <a href="" class="header-secondary">header link two</a>
+            <a href="" class="header-secondary">header link three</a>
+          </div>
+      </div>
+      <div id="hero-div">
+        <h1 id="main-hero-text">This website is awesome!</h1>
+        <p class="header-secondary">
+          This website has some subtext that goes under the main title. It's a
+          smaller font and the color is lower contrast.
+        </p>
+        <button>Sign up</button>
+      </div>
+      <div id="placeholder-image-div">
+        <p>placeholder text for the image<p>
+      </div>
     </div>
-    <h1 id="main-hero-text">This website is awesome!</h1>
-    <p class="header-secondary">This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast.</p>
-    <button>Sign up</button>
-    <div id="placeholder-image-div">
-      <p>placeholder text</p>
+    <div id="section1">
+      <h2>Some random information.</h2>
+      <div id="boxes"></div>
     </div>
-  </div>
-  <div id="section1">
-    <h2>Some random information.</h2>
-    <div id="boxes"></div>
-  </div>
-  <div id="section2">
-    <p><em>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</em></p>
-    <p><strong>-Thor, God of Thunder</strong></p>
-  </div>
-  <div id="section3">
-    <div id="signup-ad">
-      <h3>Call to action! It's time!</h3>
-      <p>Sign up for our product by clicking that button over there.</p>
-      <button>Sign Up</button>
+    <div id="section2">
+      <p>
+        <em
+          >This is an inspiring quote, or a testimonial from a customer. Maybe
+          it's just filling up space, or maybe people will actually read it. Who
+          knows? All I know is that it looks nice.</em
+        >
+      </p>
+      <p><strong>-Thor, God of Thunder</strong></p>
     </div>
-  </div>
-  <div id="footer">
-    <p>Copyright © Franek Sz 2025</p>
-  </div>
-</body>
-
+    <div id="section3">
+      <div id="signup-ad">
+        <h3>Call to action! It's time!</h3>
+        <p>Sign up for our product by clicking that button over there.</p>
+        <button>Sign Up</button>
+      </div>
+    </div>
+    <div id="footer" class="dark-bg">
+      <p>Copyright © Franek Sz 2025</p>
+    </div>
+  </body>
 </html>
