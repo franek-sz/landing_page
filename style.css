@@ -22,7 +22,7 @@
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #nav-bar a {
@@ -53,6 +53,69 @@
 #main-hero-text {
     font-size: 48px;
     font-weight: 900;
+}
+
+#main-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#hero-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 100px;
+}
+
+#hero-div button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 5px 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#placeholder-image-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+#section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    margin: 50px;
+}
+
+#section1 h2 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.blue-boxes {
+    display: flex;
+    border: #3882f6 3px solid;
+    border-radius: 15px;
+    padding: 50px;
 }
 
 #section2 {
